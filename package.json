@@ -1,0 +1,22 @@
+{
+  "name": "employeetracker",
+  "version": "1.0.0",
+  "description": "manage employees",
+  "main": "apps.js",
+  "dependencies": {
+    "init": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "employeeTracker"
+  },
+  "keywords": [
+    "beans"
+  ],
+  "author": "Anthony C.",
+  "license": "ISC"
+}
