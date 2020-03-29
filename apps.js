@@ -18,5 +18,21 @@ connection.connect((err) => {
         return
     }
     console.log(`Connected through id ${connection.threadId}`);
-})
+});
+
+function starterPrompt (){
+
+    figlet('Employee Tracker', function (err, data){
+        if (err){
+            console.log('Somethings not working');
+            console.dir(err);
+            return;
+        }
+        console.log(chalk.red(data))
+    });
+
+
+};
+
+starterPrompt();
 connection.end();
